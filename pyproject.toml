@@ -1,0 +1,13 @@
+[project]
+name = "analisis-sentimen-hp-victus"
+version = "2.0.0"
+description = "Aplikasi analisis sentimen ulasan laptop HP Victus menggunakan Naive Bayes + TF-IDF"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

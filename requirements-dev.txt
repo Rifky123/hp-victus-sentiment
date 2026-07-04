@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# Testing
+pytest>=7.4.0
+
+# Lint & format (opsional, memudahkan menjaga konsistensi gaya kode)
+black>=23.0.0
+flake8>=6.1.0
